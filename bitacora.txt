@@ -1,0 +1,22 @@
+Mi Bitácora de IA
+
+Sesión 1 · ¿Algoritmo o IA?
+
+9 de noviembre
+
+Reto de clase 1: Eres el computador (ordenar tres números)
+La idea era ordenar tres tarjetas solo comparando dos a la vez e intercambiándolas, sin decir "ordénalas". Con 7, 2, 5 el procedimiento queda: 7 > 2 se cambian (2, 7, 5), 7 > 5 se cambian (2, 5, 7), y la última comparación ya no cambia nada.
+Con 2, 2, 9 no se intercambia nada porque "mayor que" no incluye el igual, ahí estaba la instrucción ambigua: hay que definir qué pasa con los empates.
+Lo pasé a Python (ordenar_tres_numeros.py). Le pedí a Claude el código por tiempo y lo revisé: entendí que a, b = b, a intercambia dos valores en una sola línea y que el algoritmo sigue los mismos tres pasos de las tarjetas.
+
+Actividad en equipo: tres cupos, ocho estudiantes
+Teníamos que usar IAs para decidir a qué tres estudiantes darles un cupo de acompañamiento.
+Primero hice mi elección individual con mi propio criterio y después le hicimos la misma consulta a Gemini, Claude y Copilot.
+En la primera respuesta las IAs coincidieron bastante (Ana, Diego y Camila), pero cuando cambiamos la instrucción cambiaron su forma de razonar:
+    Gemini se volvió más emocional, basándose en el mejoramiento personal.
+    Claude priorizó la situación de cada estudiante y el potencial.
+    Copilot se fue a lo puramente estadístico, pasó de emocional a completamente frío y lógico.
+Conclusión del equipo: la situación de cada estudiante es un factor humano importante, pero para decidir mejor pensamos que el criterio debe ser, en orden, cada caso en particular, la asistencia como señal de compromiso y la nota como margen de mejora, sin dejarse llevar por la emoción como hacían algunas IAs.
+Lo que me llevo: la misma pregunta con otra redacción puede cambiar totalmente lo que responde una IA, por eso hay que revisar su criterio y no aceptar la respuesta tal cual.
+
+Pendiente: retos de Moodle (la feria de las máquinas, la tarjeta de decisión de la librería de la abuela y el pasaporte del asistente) y la frase del equipo: "Nuestro asistente ayuda a ___, pero todavía no debe ___".
